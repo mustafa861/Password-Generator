@@ -7,7 +7,7 @@ chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*().,?012345
 number = int(input("Amount of passwords to generate: "))
 length = int(input("Input your password length: "))
 
-print("\nHere are your passwords:")
+print("Here are your passwords:")
 
 for pwd in range(number):
     password = ""
